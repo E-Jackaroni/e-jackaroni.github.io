@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head class="header-footer">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="homepage.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CS50 Week 8 Homepage</title>
+        <h1 id="header" class="header-footer">Jack Manderson: a homepage</h1>
+    </head>
+    <body>
+        <div id="loading">
+            <img id="loading-image" src="images/Loading-bar.gif">
+        </div>
+        <!--Introduce myself-->
+        <h2>You don't know Jack!</h2>
+            <p>
+                Salutations, and welcome to my homepage! My name is Jack Manderson, and I am studying computer science.
+            </p>
+            <!--Pic of me-->
+            <img src="images/Jack.jpg" id="jackpic" class="rounded mx-auto d-block" alt="A cheerful photo of Jack">
+            <h3>A few things about me:</h3>
+            <ul>
+                <li id="favcolor">My favorite color is <span class='blueify'><b>Blue</b></span></li>
+                <li>I am married to my beautiful wife Madilyn</li>
+                <img src="images/Maddy.jpg" id="maddypic" class="rounded img-fluid" alt="A photo of my beautiful wife Madilyn">
+                <li id="age">I am _ years old</li>
+                <li>My favorite hobby is playing tabletop role playing games such as:</li>
+                <ul>
+                    <li>Cyberpunk RED</li>
+                    <li>Dungeons and Dragons</li>
+                    <li>Monster of the Week</li>
+                    <li>Die RPG</li>
+                </ul>
+                <li>I have a fantastic and lovable dog named Angus</li>
+                <li>I am a fan of the K-Pop group Stray Kids</li>
+            </ul>
+            <div class="d-flex justify-content-center">
+                <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+                    <!--Introduce CyberpunkRED-->
+                    <a href="cyberpunkRED.html" class="btn btn-outline-primary">Learn about Cyberpunk RED</a>
+                    <!--Introduce Angus-->
+                    <a href="angus.html" class="btn btn-outline-primary">More Angus content</a>
+                    <!--Introduce Stray Kids-->
+                    <a href="straykids.html" class="btn btn-outline-primary">Real STAYs click here</a>
+                </div>
+            </div>
+    </body>
+    <footer id="footer" class="header-footer">
+        <address>
+            Written by <a href="mailto:jackcmanderson@gmail.com">Jack Manderson</a>
+        </address><br>
+    </footer>
+    <div class="button-container">
+        <button type="button" id="hackermodebutton">Initiate Hackermode</button>
+    </div>
+</html>

@@ -1,0 +1,110 @@
+/* loading spinner */
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: white;
+    z-index: 99;
+}
+#loading-image {
+    z-index: 100;
+}
+
+/* format for the header and footer of website */
+.header-footer
+{
+    padding: 20px;
+    text-align: center;
+    font-family: georgia, garamond;
+    color: white;
+    background-color: black;
+}
+
+/* format for main page */
+#jackpic {
+    border-radius: 40%;
+    width: 45%;
+    height: auto;
+}
+#maddypic {
+    border-radius: 80%;
+    width: 35%;
+    height: auto;
+}
+
+/* format for hacker mode button */
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+#hackermodebutton{
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-family: "courier new", monospace;
+    color: lightgreen;
+    background-color: black;
+    border-radius:12px;
+    border-color: lightgreen;
+}
+
+/* turn some text blue */
+.blueify {
+    color: blue;
+}
+
+/* format for Skz page*/
+.cutieboypictures {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#straykidsbody {
+    background: rgba(175, 65, 84, 0.8);
+    text-align: center;
+    font-family: georgia;
+}
+#groupskzpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+#skzlogo {
+    display: inline;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+#skzbulletpoints {
+    width: 50%;
+    height: 30%;
+    margin: 5%;
+    border: 10px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+#wikibutton {
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-family: georgia;
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius:12px;
+}
