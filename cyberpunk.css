@@ -1,0 +1,45 @@
+/* cyberpunk loading spinner */
+#page-loading {
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    text-align: center;
+}
+.spinner {
+    z-index: 100;
+    margin-top: 20%;
+}
+
+/* cyberpunk page body */
+.pagebody {
+    font-family: "lucida console", monospace;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+}
+
+#footerbuttons {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: darkred;
+    position: fixed;
+    bottom: 0;
+}
+#optionsbar {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+#nightcitymap {
+    margin: auto;
+    width: 100%;
+}
+body {
+    background-color: black;
+}

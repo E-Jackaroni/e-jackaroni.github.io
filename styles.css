@@ -1,0 +1,214 @@
+/* loading spinner */
+#page-loading {
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    text-align: center;
+}
+.spinner {
+    z-index: 100;
+    margin-top: 20%;
+}
+
+/* format for the header and footer of website */
+.header-footer
+{
+    padding: 20px;
+    text-align: center;
+    font-family: georgia, garamond;
+    color: white;
+    background-color: black;
+}
+
+/* format for main page */
+#mainpagebody {
+    background: url(images/Bliss.jpeg) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    background-color: lightblue;
+    text-shadow: 2px 2px 5px black;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container > div {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    text-align: left;
+}
+#jackpic {
+    border-radius: 40%;
+    width: 45%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+/* format for fading in box on wife's picture */
+.maddycontainer {
+    position: relative;
+    width: 40%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.maddycontainer:hover .image {
+    opacity: 0.7;
+}
+.maddycontainer:hover .middle {
+    opacity: 1;
+}
+.maddytext {
+    background-color: olive;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 5%;
+    text-align: center;
+}
+
+/* format for hacker mode button */
+#hackermodebutton{
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-family: "courier new", monospace;
+    color: lightgreen;
+    background-color: black;
+    border-radius:12px;
+    border-color: lightgreen;
+}
+/* turn some text blue */
+.blueify {
+    color: blue;
+    text-shadow: none;
+}
+
+/* format for Skz page*/
+#straykidsheader {
+    height: 15%;
+    background-color: black;
+    color: white;
+}
+.cutieboypictures {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#straykidsbody {
+    background: rgba(175, 65, 84, 0.8);
+    text-align: center;
+    font-family: georgia;
+}
+#groupskzpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+#skzlogo {
+    display: inline;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+#skzbulletpoints {
+    width: 50%;
+    height: 30%;
+    margin: 5%;
+    border: 10px solid black;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+#wikibutton {
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-family: georgia;
+    color: white;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius:12px;
+}
+
+/* format for Angus' page */
+div.gallery {
+    border: 2px solid grey;
+}
+div.gallery:hover {
+    border: 2px solid black;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#angustext {
+    font-family: georgia;
+    text-align: center;
+}
+#anguspagebody {
+    background-size: cover;
+    background: lavender;
+    color: black;
+}
